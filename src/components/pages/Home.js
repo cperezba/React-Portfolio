@@ -1,21 +1,14 @@
 import React from 'react';
+import "../css/style.css";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Carlos Perez</strong> a Full-Stack
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web-Developer</p>
+      {/* <img src="./assets/Profile-Pic/IMG_20210526_230851_102.jpg" alt="Carlos Perez' Profile Picture" style="display:block; width: 120px;border: 8px solid #2c2f3f; border-radius: 50%; position: relative; right: 45px;" class="intro__img"></img> */}
     </div>
   );
 }
