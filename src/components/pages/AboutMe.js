@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/style.css";
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <div className="intro" id="home">
       <h1 class="section__title section__title--intro">

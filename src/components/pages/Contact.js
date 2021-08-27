@@ -2,27 +2,26 @@ import React from 'react';
 import "../css/style.css";
 
 
+
 export default function Contact() {
   return (
-    <div class="footer">
-      <a href="mailto:ca.perez.barr.dev@gmail.com" class="footer__link">Contact Me</a>
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a href="mailto:ca.perez.barr.dev@gmail.com" class="social-list__link"><i
-            class="far fa-envelope-open"></i></a>
-        </li>
-        <li class="social-list__item">
-          <a href="./assets/documents/Carlos Perez Resume 2021.pdf" download="caPerez-Resume"
-            class="social-list__link"><i class="far fa-file"></i></a>
-        </li>
-        <li class="social-list__item">
-          <a href="https://www.linkedin.com/in/carlos-perez-48012820b" class="social-list__link"><i
-            class="fab fa-linkedin"></i></a>
-        </li>
-        <li class="social-list__item">
-          <a href="https://www.github.com/cperezba" class="social-list__link"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
+    <div>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1"></input>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   );
 }

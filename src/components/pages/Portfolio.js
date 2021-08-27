@@ -1,7 +1,7 @@
 import React from 'react';
 // import "../css/style.css"
 
-export default function About() {
+export default function Portfolio() {
   return (
     <div className="about-me" id="about">
       <h2 className="section__title section__title--about">Who I am</h2>
