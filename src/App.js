@@ -1,6 +1,10 @@
-import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const App = () => <PortfolioContainer />;
+function App() {
+  return (
+    <h2>Portfolio Project...</h2>
+  );
+}
 
 export default App;
