@@ -5,9 +5,6 @@ import noteTaker from "../assets/images/homework/03-note-taker-application.PNG";
 import workoutTracker from "../assets/images/homework/04-WorkoutTracker-Main.PNG";
 import budgetTracker from "../assets/images/homework/05-app-main.PNG";
 import portfolio2 from "../assets/images/homework/06-portfolio2.0-Main.PNG";
-import cityGuide from "../assets/images/city-guide-app.png";
-import portfolio from "../assets/images/portfolio.png";
-import taskManager from "../assets/images/task-manager.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // FONT AWESOME IMPORTS
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
