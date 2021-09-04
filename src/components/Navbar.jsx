@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '/Users/cpere/02-UTA-Homework/17-React-Portfolio/src/components/test-logo.png';
 import { Link } from 'react-scroll';
 
 //REACT FONTAWESOME IMPORTS
