@@ -20,7 +20,7 @@ const Portfolio = () => {
             <>
                 <img className="portfolio-image-popupbox" src={passwordGenerator} alt="Netflix Clone Project..." />
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic laudantium numquam pariatur dicta magni magnam, sit corrupti iste aliquam consectetur.</p>
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Password-Generator")}>https://github.com/cperezba/Password-Generator</a>
+                <b>GitHub:</b> <a href=""className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Password-Generator")}>https://github.com/cperezba/Password-Generator</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -43,7 +43,7 @@ const Portfolio = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic laudantium numquam pariatur dicta magni magnam, sit corrupti iste aliquam consectetur.</p>
                 <br/>
                 {/* <b>Demo</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project", "_blank")}>https://github.com/8020Coding/netflix-project</a> */}
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Weather-Dashboard")}>https://github.com/cperezba/Weather-Dashboard</a>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Weather-Dashboard")}>https://github.com/cperezba/Weather-Dashboard</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -66,7 +66,7 @@ const Portfolio = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic laudantium numquam pariatur dicta magni magnam, sit corrupti iste aliquam consectetur.</p>
                 <br/>
                 {/* <b>Demo</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project", "_blank")}>https://github.com/8020Coding/netflix-project</a> */}
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Note-Taker")}>https://github.com/cperezba/Note-Taker</a>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Note-Taker")}>https://github.com/cperezba/Note-Taker</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -90,7 +90,7 @@ const Portfolio = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic laudantium numquam pariatur dicta magni magnam, sit corrupti iste aliquam consectetur.</p>
                 <br/>
                 {/* <b>Demo</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project", "_blank")}>https://github.com/8020Coding/netflix-project</a> */}
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Workout-Tracker")}>https://github.com/cperezba/Workout-Tracker</a>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Workout-Tracker")}>https://github.com/cperezba/Workout-Tracker</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -113,7 +113,7 @@ const Portfolio = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic laudantium numquam pariatur dicta magni magnam, sit corrupti iste aliquam consectetur.</p>
                 <br/>
                 {/* <b>Demo</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project", "_blank")}>https://github.com/8020Coding/netflix-project</a> */}
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Budget-Tracker-PWA")}>https://github.com/cperezba/Budget-Tracker-PWA</a>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Budget-Tracker-PWA")}>https://github.com/cperezba/Budget-Tracker-PWA</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -136,7 +136,7 @@ const Portfolio = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic laudantium numquam pariatur dicta magni magnam, sit corrupti iste aliquam consectetur.</p>
                 <br/>
                 {/* <b>Demo</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project", "_blank")}>https://github.com/8020Coding/netflix-project</a> */}
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Portfolio-Prototype-2.0")}>https://github.com/cperezba/Portfolio-Prototype-2.0</a>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={() => window.open("https://github.com/cperezba/Portfolio-Prototype-2.0")}>https://github.com/cperezba/Portfolio-Prototype-2.0</a>
             </>
         )
         PopupboxManager.open({ content })
