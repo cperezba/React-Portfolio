@@ -40,7 +40,7 @@ const Portfolio = () => {
      const openPopupboxDashboard = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={weatherDashboard} alt="Weather Dashboard..." />
+                <img className="portfolio-image-popupbox" src={weatherDashboard} alt='Weather Dashboard...' />
                 <p>API powered dashboard providing an up to five-day weather forecast!</p>
                 <br/>
                 <b>Deployed App</b> <a href="https://cperezba.github.io/Weather-Dashboard/" className="hyper-link" onClick={() => window.open("https://cperezba.github.io/Weather-Dashboard/", "_blank")}>https://cperezba.github.io/Weather-Dashboard/</a>
