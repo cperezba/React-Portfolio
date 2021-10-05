@@ -12,8 +12,8 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1>About Me</h1>
-                    <p>My name is Carlos and I am a 'Full-Stack Web Developer' in training! Bootcamp attendant at the University of Texas at Austin, the working is hard and fulfilling in becoming a fully fledged full-stack web developer</p>
-                    <p>Currently enjoying every bit of my bootcamp journey, I am currently versed in everything from the trio-suite of HTML, CSS, and Javascript to databases, React, and MERN. Genuinely looking forward to mastering Redux and showcasing more projects in the future!</p>
+                    <p>My name is Carlos and I am a 'Full-Stack Web Developer' in training! Bootcamp attendant at the University of Texas at Austin, currently workin hard in becoming a fully fledged full-stack web developer</p>
+                    <p>Enjoying every bit of my bootcamp journey, I am currently versed in everything from the trio-suite of HTML, CSS, and Javascript to databases, React, and MERN. Genuinely looking forward to mastering Redux and showcasing more projects in the future!</p>
                 </div>
             </div>
         </div>
